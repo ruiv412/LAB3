@@ -1,7 +1,7 @@
 import socket
 
 host = 'localhost'
-port = 8888
+port = 5432
 
 def send_command(command):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -49,4 +49,4 @@ def menu():
         else:
             print("Invalid choice")
 
-menu() 
+menu()

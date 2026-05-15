@@ -2,7 +2,7 @@ import psycopg2
 import socket
 
 # TODO: Change this to your own connection string
-CONNECTION_STRING = "postgres://jyvqcofn:DV6pWAmWSASHsredmWVUkvQOpEO_oamc@rogue.db.elephantsql.com/jyvqcofn"
+CONNECTION_STRING = "postgresql://postgres.gcblvyidlrutgzmbxmvb:Asdrubal1234.@aws-1-eu-west-2.pooler.supabase.com:5432/postgres"
 
 # This class reads and saves ToDo items from an SQL database
 class TodoList:
@@ -89,7 +89,7 @@ class TodoList:
         return result
 
 host = 'localhost'
-port = 8888
+port = 5432
 
 todo_list = TodoList()    
 
